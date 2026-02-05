@@ -1,4 +1,4 @@
-# ngine
+# Ngine
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ## Overview
 
-**ngine** is an open-source framework for building, training, and evaluating embodied AI agents across diverse simulation environments. It provides a unified interface for working with different simulators, robot embodiments, and task domains.
+**Ngine** is an open-source framework for building, training, and evaluating embodied AI agents across diverse simulation environments. It provides a unified interface for working with different simulators, robot embodiments, and task domains.
 
 ### Key Features
 
