@@ -6,13 +6,10 @@
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.x-green.svg)](https://developer.nvidia.com/cuda-toolkit)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/Negentropy-ai/Ngine/blob/main/LICENSE)
 
 </div>
 
----
-
-## Overview
 
 **Ngine** is an open-source framework for building, training, and evaluating embodied AI agents across diverse simulation environments. It provides a unified interface for working with different simulators, robot embodiments, and task domains.
 
@@ -40,8 +37,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/ngine.git
-cd ngine
+git clone https://github.com/Negentropy-ai/Ngine.git
+cd Ngine
 
 # Create environment
 conda create -n ngine python=3.10
@@ -184,7 +181,7 @@ Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guideli
 @software{ngine2025,
   title = {ngine: Environment-Agnostic Embodied AI Infrastructure},
   year = {2025},
-  url = {https://github.com/your-org/ngine}
+  url = {https://github.com/Negentropy-ai/Ngine}
 }
 ```
 
