@@ -1,0 +1,50 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ngine*"]
+
+[project]
+name = "ngine"
+version = "0.1.0"
+description = "Environment-agnostic embodied AI infrastructure"
+dependencies = [
+    "pin-pink==3.1.0",
+    "grpcio>1.73",
+    "protobuf>6",
+    "pynput",
+    "mediapy",
+    "tqdm",
+    "pandas",
+    "vuer[all]",
+    "onnxruntime",
+    "zmq",
+    "lazy-import",
+    "flask",
+    "tyro",
+]
+
+[project.optional-dependencies]
+cloud = [
+    "requests>=2.25.0",
+]
+sdk = [
+    "lightwheel-sdk>=1.0.0",
+]
+lerobot = [
+    "lerobot==0.3.3",
+    "pyserial>=3.5",
+    "deepdiff>=7.0.1,<9.0.0",
+    "feetech-servo-sdk>=1.0.0"
+]
+
+[project.entry-points."ngine.plugins"]
+scenes = "ngine.engine.scenes"
+embodiments = "ngine.engine.embodiments"
+benchmarks = "ngine.benchmarks"
+rl = "ngine.rl"
