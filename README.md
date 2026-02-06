@@ -10,9 +10,7 @@
 
 </div>
 
-
-
-https://github.com/user-attachments/assets/49855088-589d-4da5-ae3d-828ecd13aa21
+https://github.com/user-attachments/assets/c2855782-67d3-4601-bdfa-3ece194a1b5c
 
 
 **Ngine** is an open-source framework for building, training, and evaluating embodied AI agents across diverse simulation environments. It provides a unified interface for working with different simulators, robot embodiments, and task domains.
